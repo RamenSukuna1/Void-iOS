@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://cloudflare-dns.com/dns-query</string>
+                <key>SupplementalMatchDomains</key>
+                <array>
+                    <string>example.com</string>
+                    <string>ocsp.apple.com</string>
+                </array>
+            </dict>
+            <key>PayloadDisplayName</key>
+            <string>Void iOS DNS Profile</string>
+            <key>PayloadIdentifier</key>
+            <string>com.voidios.dns.profile</string>
+            <key>PayloadOrganization</key>
+            <string>Void iOS</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>309f8c22-c691-47a1-bf84-a5cbebb42b5e</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>DNS Configuration for Void iOS</string>
+    <key>PayloadDisplayName</key>
+    <string>Void iOS DNS</string>
+    <key>PayloadIdentifier</key>
+    <string>com.voidios.dns.profile</string>
+    <key>PayloadScope</key>
+    <string>User</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>1772beb3-6488-470b-be06-aaa40f132c40</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
